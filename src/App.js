@@ -1,8 +1,14 @@
 import React from "react";
-import Jumbotron from "./components/jumbotron";
+import { FaqsContainer } from "./containers/faqs";
+import { FooterContainer } from "./containers/footer";
+import { JumbotronContainer } from "./containers/jumbotron";
 
-function App() {
-  return <Jumbotron />;
+export default function App() {
+  return (
+    <>
+      <JumbotronContainer />
+      <FaqsContainer />
+      <FooterContainer />
+    </>
+  );
 }
-
-export default App;
