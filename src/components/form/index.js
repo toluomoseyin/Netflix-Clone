@@ -3,6 +3,7 @@ import {
   Container,
   Base,
   Error,
+  Text,
   Title,
   TextSmall,
   Link,
